@@ -1,0 +1,45 @@
+body{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 100%;
+    width: auto;
+    background:rgb(10, 1, 1);
+    font-family: 'Montserrat', sans-serif;
+    background-image: 'url("https://source.unsplash.com/random")';
+}
+.card{
+    background: rgb(192, 192, 247);
+    padding: 1em;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 420px;
+    margin: 20px;
+    position:relative;
+    top:150px;
+}
+.search{
+    display:flex;
+    justify-content:center;
+    justify-items:center;
+}
+.search-bar{
+    border: 4em;
+    padding: 0.5em;
+    margin: 0.5em;
+    outline: none;
+    border-radius:20px;
+    font-family:inherit;
+    
+}
+.button{
+    padding: 3px;
+    margin: 0.5em;
+    display: flex;
+    align-content: center;
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: #002ead;
+    transition:0.7s;
+}
